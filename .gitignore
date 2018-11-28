@@ -1,0 +1,4 @@
+native/artifacts.json
+native/index.node
+native/target/
+node_modules/

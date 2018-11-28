@@ -1,0 +1,16 @@
+[package]
+name = "native"
+version = "0.1.0"
+authors = ["Mark Olsson <mark@markolsson.se>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "native"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.2.0"
+
+[dependencies]
+neon = "0.2.0"
